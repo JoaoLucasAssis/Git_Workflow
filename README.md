@@ -1,3 +1,5 @@
+# Documentação sobre Git Workflow
+
 Este repositório tem como propósito principal armazenar documentações elaboradas durante outros projetos que requeriam um fluxo de trabalho colaborativo com Git.
 
 Além disso, sob uma perspectiva educacional, este repositório também visa proporcionar uma compreensão abrangente do conceito de workflow Git, junto de suas abordagens variadas, importância, benefícios, metodologias de trabalho, bem como o fornecimento de diagramas e fluxogramas para uma visualização mais clara e didática.
@@ -44,7 +46,7 @@ Com o Git, podemos compartilhar nosso projeto com outras pessoas, mesmo que elas
 
 Sendo um sistema distribuído de controle de versão, o git permite que cada usuário tenha uma cópia completa do repositório em seu próprio computador, fornecendo assim uma redundância valiosa e a capacidade de restaurar o projeto em caso de falha do servidor central.
 
-![imagem do sistema de versionamento distribuído]()
+![imagem do sistema de versionamento distribuído](https://git-scm.com/book/en/v2/images/distributed.png)
 
 Com o Git, podemos criar "ramificações" do nosso projeto, podendo trabalhar em diferentes partes do projeto ao mesmo tempo sem interferir no trabalho de outras pessoas. 
 > obs: Quando terminamos nosso trabalho em uma ramificação, podemos combiná-la de volta ao projeto principal, chamado de "merge".
@@ -52,13 +54,13 @@ Com o Git, podemos criar "ramificações" do nosso projeto, podendo trabalhar em
 Cada vez que fazemos uma alteração em nossos arquivos, podemos "confirmar" essas alterações com uma mensagem. Esses "commits" são como pequenos pacotes de mudanças que são registrados em um histórico, para que possamos ver exatamente o que foi alterado e por quem.
 
 Boas práticas de commits são essenciais para manter um histórico de alterações claro e organizado.
-> obs: Para aprender mais sobre boas práticas de commits [clique aqui]()
+> obs: Para aprender mais sobre boas práticas de commits [clique aqui](https://github.com/JoaoLucasAssis/Git_Workflow/blob/develop/commits.md)
 
 Para facilitar o gerenciamento eficiente de projetos de software colaborativos, usa-se um workflow Git. Esse workflow define as diretrizes e práticas para coordenar o desenvolvimento, revisão, teste e implantação de código em equipe.
 
-## Git Workflow
-
 ## Issues
+
+[ ] Git Workflow
 
 [ ] Git Flow
 

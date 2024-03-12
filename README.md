@@ -6,6 +6,10 @@ Além disso, sob uma perspectiva educacional, este repositório também visa pro
 
 Com o objetivo de aprender através da prática, foi utilizado o workflow Git Flow no desenvolvimento deste repositório.
 
+## Sumário
+
+[Instalação](#instalação) • [Git](#git) • [Git Workflow](#git-workflow)
+
 ## Instalação
 
 Para começar, clone o repositório do projeto em seu ambiente local. Siga a etapa abaixo:
@@ -57,6 +61,28 @@ Boas práticas de commits são essenciais para manter um histórico de alteraç�
 > obs: Para aprender mais sobre boas práticas de commits [clique aqui](https://github.com/JoaoLucasAssis/Git_Workflow/blob/develop/commits.md)
 
 Para facilitar o gerenciamento eficiente de projetos de software colaborativos, usa-se um workflow Git. Esse workflow define as diretrizes e práticas para coordenar o desenvolvimento, revisão, teste e implantação de código em equipe.
+
+## Git Workflow
+
+É um conjunto de práticas e processos utilizados para gerenciar o fluxo de trabalho de desenvolvimento de software usando o sistema de controle de versão git.
+
+Ele define como as alterações são propostas, revisadas, testadas e mescladas durante o ciclo de vida do desenvolvimento de um projeto.
+
+Há vários Git Workflows que podem ser uma boa opção para sua equipe. Neste repositório iremos abordar os seguintes:
+
+[
+Eu não tenho certeza de nada que está marcado nessa tabela
+_
+CONFIRMAR ANTES DE MUDAR A VISIBILIDADE DO REPOSITÓRIO
+_
+]: #
+
+|Workflows     |Integração Contínua (CI)|Entrega Contínua (CD)|Branch Única|Reversão Simples de Alterações|Suporte a Ambientes de Produção|Automação de Testes|Facilidade de Uso|Flexibiliade|Estabilidade|Automatização|Simplicidade|Agilidade|
+|:------------:|:----------------------:|:-------------------:|:----------:|:----------------------------:|:-----------------------------:|:-----------------:|:---------------:|:----------:|:----------:|:-----------:|:----------:|:-------:|
+|GitFlow       |                        |                     |            |                              |:heavy_check_mark:             |:heavy_check_mark: |                 |            |:heavy_check_mark:|:heavy_check_mark:|            |         |
+|Github Flow   |                        |:heavy_check_mark:   |:heavy_check_mark:|:heavy_check_mark:      |                               |:heavy_check_mark: |:heavy_check_mark:|:heavy_check_mark:|            |:heavy_check_mark:|:heavy_check_mark:|         |
+|GitLab        |:heavy_check_mark:      |:heavy_check_mark:   |:heavy_check_mark:|                        |:heavy_check_mark:             |:heavy_check_mark: |                 |            |:heavy_check_mark:|:heavy_check_mark:|            |         |
+|Trunk-based Development|               |:heavy_check_mark:   |:heavy_check_mark:|                        |                               |                   |                 |            |            |             |:heavy_check_mark:|:heavy_check_mark:|
 
 ## Issues
 

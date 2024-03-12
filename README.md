@@ -2,16 +2,18 @@
 
 Este repositório tem como propósito principal armazenar documentações elaboradas durante outros projetos que requeriam um fluxo de trabalho colaborativo com Git.
 
-Além disso, sob uma perspectiva educacional, este repositório também visa proporcionar uma compreensão abrangente do conceito de workflow Git, junto de suas abordagens variadas, importância, benefícios, metodologias de trabalho, bem como o fornecimento de diagramas e fluxogramas para uma visualização mais clara e didática.
+Além disso, este repositório busca explicar de forma abrangente o conceito de workflow Git, suas diferentes abordagens, importância e benefícios, com o auxílio de imagens para facilitar a compreensão.
 
-Com o objetivo de aprender através da prática, foi utilizado o workflow Git Flow no desenvolvimento deste repositório.
+Com o objetivo de aprender através da prática, foi utilizado o workflow `Git Flow` no desenvolvimento deste repositório.
 
 ## Sumário
 
 [Instalação](#instalação) • [Git](#git) • [Git Workflow](#git-workflow)
 
 ## Instalação
-
+<details>
+<summary>Clique aqui!</summary>
+<p>
 Para começar, clone o repositório do projeto em seu ambiente local. Siga a etapa abaixo:
 
 * Abra o terminal na pasta onde deseja clonar o repositório.
@@ -41,23 +43,21 @@ git checkout develop
 ```
 
 Agora você está pronto para começar a trabalhar em sua nova branch!
+</p>
+</details>
 
 ## Git
 
-O Git é um sistema que nos permite controlar as diferentes versões de nossos arquivos ao longo do tempo, permitindo acompanhar todas as mudanças que fazemos em nossos arquivos e até mesmo voltar a versões anteriores se necessário.
+O Git é um sistema de controle de versão que nos permite controlar as diferentes versões de nossos arquivos ao longo do tempo, permitindo acompanhar todas as mudanças que fazemos em nossos arquivos e até mesmo voltar a versões anteriores se necessário.
+> obs: Para aprender mais sobre git e alguns comandos [clique aqui](https://github.com/JoaoLucasAssis/Git_GitHub)
 
-Com o Git, podemos compartilhar nosso projeto com outras pessoas, mesmo que elas estejam em locais diferentes. Podemos enviar nossas mudanças para um "repositório remoto", onde outras pessoas podem ver o que fizemos e até mesmo contribuir com suas próprias mudanças. Isso facilita a colaboração em grandes projetos com equipes dispersas.
+Sendo um sistema distribuído de controle de versão, o git permite que cada usuário tenha uma cópia completa do repositório em seu próprio computador, fornecendo redundância e a capacidade de restaurar o projeto em caso de falha do servidor central.
 
-Sendo um sistema distribuído de controle de versão, o git permite que cada usuário tenha uma cópia completa do repositório em seu próprio computador, fornecendo assim uma redundância valiosa e a capacidade de restaurar o projeto em caso de falha do servidor central.
-
-![imagem do sistema de versionamento distribuído](https://git-scm.com/book/en/v2/images/distributed.png)
+<p align="center"><img  src="https://git-scm.com/book/en/v2/images/distributed.png" alt="imagem controle de versão distribuído" width="500px" height="500px"/></p>
 
 Com o Git, podemos criar "ramificações" do nosso projeto, podendo trabalhar em diferentes partes do projeto ao mesmo tempo sem interferir no trabalho de outras pessoas. 
-> obs: Quando terminamos nosso trabalho em uma ramificação, podemos combiná-la de volta ao projeto principal, chamado de "merge".
 
-Cada vez que fazemos uma alteração em nossos arquivos, podemos "confirmar" essas alterações com uma mensagem. Esses "commits" são como pequenos pacotes de mudanças que são registrados em um histórico, para que possamos ver exatamente o que foi alterado e por quem.
-
-Boas práticas de commits são essenciais para manter um histórico de alterações claro e organizado.
+Cada alteração nos arquivos é "confirmada" por meio de um commit, sendo como pequenos pacotes de mudanças que são registrados em um histórico, para que possamos ver exatamente o que foi alterado e por quem.
 > obs: Para aprender mais sobre boas práticas de commits [clique aqui](https://github.com/JoaoLucasAssis/Git_Workflow/blob/develop/commits.md)
 
 Para facilitar o gerenciamento eficiente de projetos de software colaborativos, usa-se um workflow Git. Esse workflow define as diretrizes e práticas para coordenar o desenvolvimento, revisão, teste e implantação de código em equipe.
@@ -86,14 +86,14 @@ _
 
 ## Issues
 
-[ ] Git Workflow
+- [ ] Git Workflow
 
-[ ] Git Flow
+- [ ] Git Flow
 
-[ ] Github Flow
+- [ ] Github Flow
 
-[ ] Gitlab Flow
+- [ ] Gitlab Flow
 
-[ ] Trunk-Based Development
+- [ ] Trunk-Based Development
 
-[ ] Proteção de branches
+- [ ] Proteção de branches

@@ -84,6 +84,60 @@ _
 |GitLab        |:heavy_check_mark:      |:heavy_check_mark:   |:heavy_check_mark:|                        |:heavy_check_mark:             |:heavy_check_mark: |                 |            |:heavy_check_mark:|:heavy_check_mark:|            |         |
 |Trunk-based Development|               |:heavy_check_mark:   |:heavy_check_mark:|                        |                               |                   |                 |            |            |             |:heavy_check_mark:|:heavy_check_mark:|
 
+## Git Flow
+
+O Git Flow é um fluxo de trabalho no Git que ajuda a organizar o desenvolvimento de software.
+
+> obs: Este é apenas um resumo sobre Git Flow. Para mais detalhes [clique aqui](https://github.com/JoaoLucasAssis/Git_Workflow/blob/feature/git-flow/gitflow.md)
+
+Consiste no uso de ramificações de recursos e várias ramificações primárias.
+
+### Branches Principais
+
+`main`
+
+A branch principal que armazena o código estável e oficial do projeto.
+
+`develop`
+
+A branch de desenvolvimento, onde novas branches são criadas e novos recursos e funcionalidades são adicionados.
+
+### Branches de Suporte
+
+`feature`
+
+Criadas para o desenvolvimento de funcionalidades específicas.
+
+Elas devem ter o nome iniciado por **"feature/"** seguido por uma **descrição**.
+
+Essas branches são criadas a partir da branch `develop` e, após finalizadas, são removidas após serem mescladas com a branch `develop`.
+
+`release`
+
+Criadas para fazer o lançamento de novas funcionalidades da branch `develop` para a branch `main`.
+
+Elas devem ter o nome iniciado por **"release/"** seguido por uma **versão**.
+
+Essas branches são criadas a partir da branch `develop` e, após finalizadas, são removidas após serem mescladas com a branch `main`.
+
+`hotfix`
+
+Criadas para fazer correções com rapidez no código base na branch `main`.
+
+Elas devem ter o nome iniciado por **"hotfix/"** seguido por uma **versão**.
+
+Essas branches são criadas a partir da branch `main` e, após finalizadas, são removidas após serem mescladas com a branch `main` e `develop`.
+
+`bugfix`
+
+Criadas para fazer para correções encontradas no momento da validação na branch `release`.
+
+Elas devem ter o nome iniciado por **"bugfix/"** seguido por uma **descrição**.
+
+Essas branches são criadas a partir da branch `release` e, após finalizadas, são removidas após serem mescladas com a branch `release`.
+
+> obs: Este é apenas um resumo sobre Git Flow. Para mais detalhes [clique aqui](https://github.com/JoaoLucasAssis/Git_Workflow/blob/feature/git-flow/gitflow.md)
+
 ## Issues
 
 - [ ] Git Workflow

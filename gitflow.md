@@ -1,10 +1,10 @@
 # Git Flow
 
-<p align="">
-    <img src="https://miro.medium.com/v2/resize:fit:800/1*u4dlEq4sqIT6iHL_Usvwnw.png" alt="fluxo de trabalho gitflow" width="500px" height="320px"/>
-</p>
-
 O Git Flow é um fluxo de trabalho no Git que ajuda a organizar o desenvolvimento de software.
+
+<p align="">
+    <img src="https://miro.medium.com/v2/resize:fit:800/1*u4dlEq4sqIT6iHL_Usvwnw.png" alt="fluxo de trabalho gitflow" width="400px" height="200px"/>
+</p>
 
 Consiste no uso de ramificações de recursos e várias ramificações primárias.
 

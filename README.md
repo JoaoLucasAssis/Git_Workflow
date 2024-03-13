@@ -53,7 +53,7 @@ O Git é um sistema de controle de versão que nos permite controlar as diferent
 
 Sendo um sistema distribuído de controle de versão, o git permite que cada usuário tenha uma cópia completa do repositório em seu próprio computador, fornecendo redundância e a capacidade de restaurar o projeto em caso de falha do servidor central.
 
-<p align="center"><img  src="https://git-scm.com/book/en/v2/images/distributed.png" alt="imagem controle de versão distribuído" width="300px" height="300px"/></p>
+<p align="center"><img  src="https://git-scm.com/book/en/v2/images/distributed.png" alt="imagem controle de versão distribuído" width="420px" height="420px"/></p>
 
 Com o Git, podemos criar "ramificações" do nosso projeto, podendo trabalhar em diferentes partes do projeto ao mesmo tempo sem interferir no trabalho de outras pessoas. 
 

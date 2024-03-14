@@ -2,14 +2,20 @@
 
 O Git Flow é um fluxo de trabalho no Git que ajuda a organizar o desenvolvimento de software.
 
-<p align="">
-    <img src="https://miro.medium.com/v2/resize:fit:800/1*u4dlEq4sqIT6iHL_Usvwnw.png" alt="fluxo de trabalho gitflow" width="400px" height="200px"/>
-</p>
-
 Consiste no uso de ramificações de recursos e várias ramificações primárias.
+
+<p align="center">
+    <img src="https://miro.medium.com/v2/resize:fit:800/1*u4dlEq4sqIT6iHL_Usvwnw.png" alt="fluxo de trabalho gitflow" width="650px" height="450px"/>
+</p>
 
 Utiliza duas branches principais, `main` e a `develop`, que são permanentes e sempre estarão presentes, e três branches de suporte temporárias: `feature`, `release` e `hotfix`.
 
+<details>
+<summary>📑<b> Tabela de Branches! </b></summary>
+<p>
+
+
+    
 |           Principais         |             Suporte            |
 |:----------------------------:|:------------------------------:|
 |[main](#branches-principais)   |[feature](#branches-de-recurso)   |
@@ -17,6 +23,12 @@ Utiliza duas branches principais, `main` e a `develop`, que são permanentes e s
 |                              |[hotfix](#branches-de-manutenção)  |
 |                              |[bugfix](#branches-de-correção)    |
 
+</p>
+</details>
+
+Após concluir o trabalho na branch, o desenvolvedor solicita uma revisão de código através de pull request.
+
+Após a revisão e aprovação do código, as alterações são mescladas de volta para a branch `develop` ou para a branch `release`.
 
 O Gitflow tem mais ramificações de vida longa e commits maiores, retardando o merge com a `main` até que o recurso esteja completo.
 

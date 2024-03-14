@@ -98,7 +98,7 @@ Utiliza duas branches principais, `main` e a `develop`, que são permanentes e s
 
 O Gitflow tem mais ramificações de vida longa e commits maiores, retardando o merge com a main até que o recurso esteja completo.
 
-> :warning: obs: Este é apenas um resumo sobre Git Flow. Para mais detalhes [clique aqui](https://github.com/JoaoLucasAssis/Git_Workflow/blob/feature/git-flow/gitflow.md)
+> :warning: obs: Este é apenas um resumo sobre Git Flow. Para mais detalhes [clique aqui](https://github.com/JoaoLucasAssis/Git_Workflow/blob/develop/gitflow.md)
 
 ### Branches Principais
 
@@ -144,4 +144,4 @@ Elas devem ter o nome iniciado por **"bugfix/"** seguido por uma **descrição**
 
 Essas branches são criadas a partir da branch **release** e, após finalizadas, são removidas após serem mescladas com a branch **release**.
 
-> :warning: obs: Este é apenas um resumo sobre Git Flow. Para mais detalhes [clique aqui](https://github.com/JoaoLucasAssis/Git_Workflow/blob/feature/git-flow/gitflow.md)
+> :warning: obs: Este é apenas um resumo sobre Git Flow. Para mais detalhes [clique aqui](https://github.com/JoaoLucasAssis/Git_Workflow/blob/develop/gitflow.md)

@@ -76,19 +76,14 @@ Ele define como as alterações são propostas, revisadas, testadas e mescladas 
 
 Há vários Git Workflows que podem ser uma boa opção para sua equipe. Neste repositório iremos abordar os seguintes:
 
-[
-Eu não tenho certeza de nada que está marcado nessa tabela
-_
-CONFIRMAR ANTES DE MUDAR A VISIBILIDADE DO REPOSITÓRIO
-_
-]: #
+|Workflows|Integração Contínua (CI)|Entrega Contínua (CD)|Branch Única|Reversão Simples de Alterações|Suporte a Ambientes de Produção|Automação de Testes|Facilidade de Uso|Estabilidade|Agilidade|
+|:---------:|:----------------:|:----------------:|:----------------:|:----------------:|:----------------:|:----------------:|:----------------:|:----------------:|:----------------:|
+|GitFlow    |                  |                  |                  |                  |:heavy_check_mark:|:heavy_check_mark:|                  |:heavy_check_mark:|                  |
+|Github     |                  |                  |                  |                  |                  |                  |                  |                  |                  |
+|GitLab     |                  |                  |                  |                  |                  |                  |                  |                  |                  |
+|Trunk-Based|                  |                  |                  |                  |                  |                  |                  |                  |                  |
 
-|Workflows     |Integração Contínua (CI)|Entrega Contínua (CD)|Branch Única|Reversão Simples de Alterações|Suporte a Ambientes de Produção|Automação de Testes|Facilidade de Uso|Flexibiliade|Estabilidade|Automatização|Simplicidade|Agilidade|
-|:------------:|:----------------------:|:-------------------:|:----------:|:----------------------------:|:-----------------------------:|:-----------------:|:---------------:|:----------:|:----------:|:-----------:|:----------:|:-------:|
-|GitFlow       |                        |                     |            |                              |:heavy_check_mark:             |:heavy_check_mark: |                 |            |:heavy_check_mark:|:heavy_check_mark:|            |         |
-|Github Flow   |                        |:heavy_check_mark:   |:heavy_check_mark:|:heavy_check_mark:      |                               |:heavy_check_mark: |:heavy_check_mark:|:heavy_check_mark:|            |:heavy_check_mark:|:heavy_check_mark:|         |
-|GitLab        |:heavy_check_mark:      |:heavy_check_mark:   |:heavy_check_mark:|                        |:heavy_check_mark:             |:heavy_check_mark: |                 |            |:heavy_check_mark:|:heavy_check_mark:|            |         |
-|Trunk-based Development|               |:heavy_check_mark:   |:heavy_check_mark:|                        |                               |                   |                 |            |            |             |:heavy_check_mark:|:heavy_check_mark:|
+> :warning: obs: A tabela será preenchida a medida que novas documentações forem feitas sobre os workflows
 
 ## Git Flow
 
